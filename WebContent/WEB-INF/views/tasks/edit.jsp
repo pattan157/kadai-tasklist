@@ -17,7 +17,7 @@
                 </form>
                 <script>
                 function confirmDestroy(){
-                    if(cinfirm("本当に削除してもよろしいですか？")){
+                    if(confirm("本当に削除してもよろしいですか？")){
                         document.forms[1].submit();
                     }
                 }
